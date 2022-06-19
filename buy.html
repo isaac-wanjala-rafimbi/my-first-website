@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Buy products</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="Js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+                        <h1>RALPH ACCESSORIES</h1>
+            <div class="nav">
+                  <div class="left-side">
+                      <div class="nav-pp">
+                          <a href="kk.html">Home</a>
+                      </div>                    
+                        <div class="nav-pp">
+                            <a href="products.html">products</a>
+                        </div>
+                        <div class="nav-pp">
+                            <a href="about.html">About</a>
+                        </div>
+                        <div class="nav-pp">
+                            <a href="buy.html">Buy</a>
+                        </div>
+                        <div class="nav-pp">
+                            <a href="contact.html">contact us</a>
+                        </div>
+                  </div>
+                  <div class="search">
+                  <form>
+                    <input type="text" placeholder="Search product.." name="search">
+                    <button type="submit">Search</button>
+                  </form>
+                  </div>            
+            </div>   
+     </div>
+        <h1>Buy and order products</h1>
+        <form action="connect.php" method="post">
+            <label for="firstName">Name</label>
+            <input type="text" id="firstName" name="firstName" ><br>
+            <br>
+            <label for="emailAddress">Email address</label>
+            <input type="text" id="emailAddress" name="emailAddress"><br>
+            <br>
+            <label for="location">Location</label>
+            <input type="location" name="location" maxlength="15" size=35><br>
+            <br>
+            <label for="postalAddress">P.O Box</label>
+            <input type="postalAddress"  id="postalAddress" name="postalAddress" size=35><br>
+            <br>
+            <caption> Gender</caption><br>
+            <input type="radio" id="male" name="gender" value="male">
+              <label for="male">Male</label><br>
+                  <input type="radio" id="female" name="gender" value="female">
+                   <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                      <label for="other">Other</label>
+        <!--</form>
+            <div class="products">
+                <form>
+                    <label for="Category of products"> Choose the type of your preferred product</label>
+                    <select id="products", name="products">
+                        <option value="laptop">Laptop</option>
+                        <option value="Phones">Phones</option>
+                        <option value="Ladiies outfit">Ladies Outfit</option>
+                        </select><br>
+                        <br>
+                        <label for="specific product name"> Specific name of the products</label>
+                        <input type=" specific product name" id="specific product name" name="specific product name" size=35>                    </select>
+                </form>
+            </div>-->
+        <input type="submit">
+        </form>
+        <p> Thank you for buying our products. We are verifying your details and we will get back to you soon.</p>
+    </body>
+</html>
